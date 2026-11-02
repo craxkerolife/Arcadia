@@ -59,16 +59,6 @@ Se incorporan validaciones para controlar los datos recibidos, utilizando herram
 
 También se muestran mensajes para indicar si los datos fueron recibidos correctamente o si existe algún error.
 
-## Instalación y ejecución local
-
-1. Descargar o clonar el repositorio.
-2. Instalar XAMPP.
-3. Copiar la carpeta ARCADIA dentro de htdocs.
-4. Iniciar Apache desde el panel de XAMPP.
-5. Abrir el navegador.
-6. Ingresar a:
-
-http://localhost/ARCADIA/
 
 ## Configuración
 
