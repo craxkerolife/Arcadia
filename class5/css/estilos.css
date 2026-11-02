@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #171321;
+    color: #f5f2ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* =========================
+   ENCABEZADO
+   ========================= */
+
+header {
+    background-color: #211936;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #44345f;
+}
+
+header h1 {
+    color: #c7aeff;
+    font-size: 55px;
+    margin: 5px;
+}
+
+header p {
+    color: #bdb4ce;
+    font-size: 18px;
+}
+
+
+/* =========================
+   BOTONES DE SECCIONES
+   ========================= */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+nav a {
+    background-color: #39275c;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 19px;
+    font-weight: bold;
+
+    padding: 18px 25px;
+
+    border: 2px solid #624590;
+    border-radius: 12px;
+
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #9b6dff;
+    border-color: #c7aeff;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 15px #00000066;
+}
+
+
+/* =========================
+   SECCIONES
+   ========================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    background-color: #2a2142;
+
+    margin: 35px 20px;
+    padding: 35px;
+
+    border-radius: 15px;
+
+    border: 1px solid #44345f;
+
+    box-shadow: 0 5px 15px #00000055;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h2 {
+    color: #c7aeff;
+
+    font-size: 38px;
+
+    margin-top: 0;
+
+    border-bottom: 2px solid #624590;
+
+    padding-bottom: 12px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #c7aeff;
+    font-size: 21px;
+}
+
+
+/* =========================
+   TEXTO
+   ========================= */
+
+p {
+    color: #bdb4ce;
+
+    font-size: 17px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BOTONES
+   ========================= */
+
+.boton {
+    display: inline-block;
+
+    background-color: #7b4fd1;
+
+    color: white;
+
+    padding: 13px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #9b6dff;
+}
+
+
+/* =========================
+   JUEGOS
+   ========================= */
+
+.juego {
+    background-color: #211936;
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+    border-radius: 12px;
+
+    border: 1px solid #44345f;
+}
+
+.juego h3 {
+    margin-top: 0;
+}
+
+
+/* =========================
+   VIDEOS
+   ========================= */
+
+iframe {
+    width: 100%;
+    max-width: 650px;
+    height: 365px;
+
+    display: block;
+
+    margin: 20px auto;
+
+    border: 2px solid #624590;
+
+    border-radius: 12px;
+}
+
+
+/* =========================
+   FORMULARIOS
+   ========================= */
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 600px;
+}
+
+label {
+    color: #f5f2ff;
+
+    font-size: 17px;
+
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+input[type="text"],
+textarea {
+    background-color: #f8f6fc;
+
+    color: #171321;
+
+    border: 1px solid #8b7a9e;
+
+    border-radius: 5px;
+
+    padding: 12px;
+
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 130px;
+
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+
+/* =========================
+   BOTONES DE FORMULARIO
+   ========================= */
+
+button {
+    background-color: #7b4fd1;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 7px;
+
+    padding: 13px 20px;
+
+    font-size: 16px;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9b6dff;
+}
+
+
+/* =========================
+   LÍNEAS
+   ========================= */
+
+hr {
+    border: 0;
+
+    border-top: 1px solid #44345f;
+
+    margin: 35px 20px;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #211936;
+
+    text-align: center;
+
+    padding: 35px;
+
+    margin-top: 40px;
+
+    border-top: 2px solid #44345f;
+}
+
+footer h2 {
+    border: none;
+}
+
+footer p {
+    color: #bdb4ce;
+}
+
+/* Seccion activa del menu */
+nav a.active {
+    background-color: #9b6dff;
+    border-color: #c7aeff;
+    box-shadow: 0 5px 15px #00000066;
+}
+
+
+/* Mensajes del procesamiento de formularios */
+.mensaje-exito {
+    background-color: #1f5138;
+    color: #e4ffed;
+    border: 1px solid #55b981;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.mensaje-error {
+    background-color: #5a2630;
+    color: #ffe8eb;
+    border: 1px solid #d87987;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.mensaje-error p,
+.mensaje-error li {
+    color: #ffe8eb;
+}
