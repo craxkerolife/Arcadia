@@ -57,9 +57,8 @@ Se incorporan validaciones para controlar los datos recibidos, utilizando herram
 - htmlspecialchars()
 - filter_var()
 <img width="744" height="139" alt="image" src="https://github.com/user-attachments/assets/66a40caa-a73d-4120-b624-1c2e991f4df5" />
+<img width="493" height="315" alt="image" src="https://github.com/user-attachments/assets/f5a986e2-b854-4ec9-bee3-fdb9b8ea24fe" />
 
-
-También se muestran mensajes para indicar si los datos fueron recibidos correctamente o si existe algún error.
 
 
 ## Configuración
