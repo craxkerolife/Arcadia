@@ -7,12 +7,6 @@ ARCADIA es un sitio web dedicado al mundo de los videojuegos y la tecnología. E
 
 El proyecto comenzó como una página desarrollada con HTML y CSS y luego fue migrado a PHP para incorporar contenido dinámico y mejorar la organización del código.
 
-## Diseño del proyecto
-
-El diseño inicial fue realizado en Figma y posteriormente llevado a código utilizando Visual Studio Code.
-
-**Enlace al diseño en Figma:**
-[Agregar aquí el enlace de Figma]
 
 ## Tecnologías utilizadas
 
